@@ -4,9 +4,9 @@ var mysql = require('mysql');
 
 const mc = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: 'Appleis1',
-    database: 'todo_list'
+    user: 'root', // Your username
+    password: '', // Your password
+    database: '' // Your database name
 });
 mc.connect();
 
